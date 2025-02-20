@@ -1,0 +1,253 @@
+body{
+    background-image:url(imgs/background1_1.jpg);
+    background-size: 125%;
+}
+
+header{
+    background-image: linear-gradient(to right, rgba(0, 128, 128, 0), rgba(0, 128, 128, 0.5),rgba(0, 128, 128, 1),rgba(0, 128, 128, 1), rgba(0, 128, 128, 1), rgb(0,128,128,1), rgba(0, 128, 128, 1),rgba(0, 128, 128, 1),rgba(0, 128, 128, 1), rgba(0, 128, 128, 0.5), rgba(0, 128, 128, 0));
+}
+
+header h1{
+    margin-left: 20%;
+}
+
+#latest_page_bar{
+    background-image: linear-gradient(to right, rgba(0, 189, 189, 0), rgba(0, 189, 189, 0.5), rgb(0,189,189,1), rgba(0, 189, 189, 1), rgb(0,189,189,1), rgba(0, 189, 189, 1), rgb(0,189,189,1), rgba(0, 189, 189, 0.5), rgba(0, 189, 189, 0));
+}
+
+#latest_page{
+    margin-left: 29%;
+}
+
+nav{
+    background-image: linear-gradient(to right, rgba(0, 128, 128, 0), rgba(0, 128, 128, 0.5),rgb(0,128,128,1),rgb(0,128,128,1), rgb(0,128,128,1), rgba(0, 128, 128, 1), rgb(0,128,128,1), rgba(0, 128, 128, 1), rgb(0,128,128,1),rgb(0,128,128,1),rgb(0,128,128,1), rgba(0, 128, 128, 0.5), rgba(0, 128, 128, 0));
+}
+
+#menu_margin{
+    margin-left: 12%;
+}
+
+@media only screen and (max-width: 600px) {
+    #menu_margin{
+        margin-left: 3%;
+    }
+    
+}
+
+.menu{
+    display: inline;
+}
+
+#blurb1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2em;
+    color: gold;
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+    #blurb1{
+        font-size: 1em;
+    }
+    
+}
+
+#splash_image{
+    padding-left: 10%;
+}
+
+#blurb2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2em;
+    color: gold;
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+@media only screen and (max-width: 600px) {
+    #blurb2{
+        font-size: 1em;
+    }
+    
+}
+
+/* styles for strip pages */
+
+#strip{
+    padding-left: 10%;
+}
+
+#strip_menu_margin{
+    margin-left: 25%;
+}
+
+
+@media only screen and (max-width: 600px) {
+    #strip_menu_margin{
+        margin-left: 13%;
+    }
+    
+}
+
+/* styles for archives */
+
+.archives_links{
+    padding-left: 20%;
+    color: gold;
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+a:link{
+    color: gold;
+}
+
+a:visited{
+    color: gold;
+}
+
+/* styles for character biographies */
+
+#oswald_2024{
+    margin-left: 20%;
+}
+
+#oswald_bio{
+    text-align: left;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.85em;
+    color: gold;
+    padding-right: 7em;
+}
+
+@media only screen and (max-width: 600px) {
+    #oswald_bio{
+        font-size: 0.55em;
+    }
+    
+}
+
+#oswald_bio_column{
+    width: 50%;
+}
+
+/* styles for about the artist */
+
+#artist_portrait{
+    margin-left: 10em;
+}
+
+@media only screen and (max-width: 600px) {
+    #artist_portrait{
+        margin-left: 1em;
+        margin-right: 0%;
+    }
+}
+
+#artist_about_part1{
+    text-align: left;
+    width: 15em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2em;
+    color: gold;
+    padding-right: 1.5em;
+    padding-left: 1.3em;
+}
+
+@media only screen and (max-width: 600px) {
+    #artist_about_part1{
+        font-size: 0.65em;
+        width:10em;
+        padding-left: 0.5em;
+        padding-right: 3em;
+    }
+    
+}
+
+#artist_about_part2{
+    text-align: center;
+    margin-left: 7em;
+    width: 1000px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2em;
+    color: gold;
+}
+
+@media only screen and (max-width: 600px) {
+    #artist_about_part2{
+        font-size: 0.68em;
+        margin-left: 3em;
+        width:30em;
+        margin-top: 0%;
+        margin-bottom: 0%;
+    }
+    
+}
+
+/* styles for contacts and links */
+
+#link_1{
+    margin-left: 35%;
+    margin-bottom: 2em;
+}
+
+#link_2{
+    margin-left: 35%;
+    margin-bottom: 2em;
+}
+
+#link_3{
+    margin-left: 35%;
+    margin-bottom: 2em;
+}
+
+#link_4{
+    margin-left: 38%;
+    margin-bottom: 2em;
+}
+
+@media only screen and (max-width: 600px) {
+    #link_1{
+        margin-left: 8.8em;
+    }
+
+    #link_2{
+        margin-left: 8.8em;
+    }
+
+    #link_3{
+        margin-left: 8.8em;
+    }
+
+    #link_4{
+        margin-left: 9.5em;
+    }
+    
+}
+
+#link1{
+    background-image: linear-gradient(to right, rgba(0, 189, 189, 0), rgba(0, 189, 189, 0.5), rgba(0,189,189,1),rgb(0,189,189,1),rgba(0,189,189,1), rgba(0, 189, 189, 0.5), rgba(0, 189, 189, 0));
+}
+
+#link2{
+    background-image: linear-gradient(to right, rgba(0, 189, 189, 0), rgba(0, 189, 189, 0.5), rgb(0,189,189,1),rgb(0,189,189,1),rgb(0,189,189,1), rgba(0, 189, 189, 0.5), rgba(0, 189, 189, 0));
+}
+
+#link3{
+    background-image: linear-gradient(to right, rgba(0, 189, 189, 0), rgba(0, 189, 189, 0.5), rgb(0,189,189,1),rgb(0,189,189,1),rgb(0,189,189,1), rgba(0, 189, 189, 0.5), rgba(0, 189, 189, 0));
+}
+
+#link4{
+    background-image: linear-gradient(to right, rgba(0, 189, 189, 0), rgba(0, 189, 189, 0.5), rgb(0,189,189,1),rgb(0,189,189,1),rgb(0,189,189,1), rgba(0, 189, 189, 0.5), rgba(0, 189, 189, 0));
+}
+
+footer{
+    background-image: linear-gradient(to right, rgba(0, 128, 128, 0), rgba(0, 128, 128, 0.5),rgb(0,128,128,1),rgb(0,128,128,1), rgb(0,128,128,1), rgba(0, 128, 128, 1), rgb(0,128,128,1), rgba(0, 128, 128, 1), rgb(0,128,128,1),rgb(0,128,128,1),rgb(0,128,128,1), rgba(0, 128, 128, 0.5), rgba(0, 128, 128, 0));
+}
+
+footer p{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: gold;
+    text-align: center;
+}
