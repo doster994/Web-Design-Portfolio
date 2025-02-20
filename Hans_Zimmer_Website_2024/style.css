@@ -1,0 +1,29 @@
+body{
+    background: linear-gradient(#feae39,#fe2f25);
+    background-repeat: no-repeat;
+    padding-left: 200px;
+    padding-right: 200px;
+    text-align: center;
+    font-family:Cambria, serif;
+    color:rgb(255, 251, 125);
+}
+h1{
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 120px;
+    margin-bottom: 0%;
+}
+h2{
+    font-size: 30px;
+    margin-top: 0%;
+}
+p{
+    font-size: 30px;
+}
+table{
+    font-size: 20px;
+    text-align: left;
+}
+td{
+    padding: 20px;
+}
