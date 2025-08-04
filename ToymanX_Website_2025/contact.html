@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="The page containing the conact and social media links 
+      for the toys and collectibles shop ToymanX">
+    <meta name="keywords" content="ToymanX, toys, collectibles, contact, Facebook, Instagram, Email">
+    <meta name="copyright" content="ToymanX">
+    <meta name="author" content="Daniel Oster">
+    <meta name="robots" content="index, nosnippet">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    
+    <link rel="toymanx-icon" sizes="180x180" href="toymanx-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">    
+    <title>ToymanX_Contact_Page</title>  
+  </head>
+
+  <body>
+    <header>
+      <a href="index.html">
+        <img class="logo" src="imgs/toyman_logo_final.png" height="370px" width="1000px" alt="Toyman-X-Logo">      
+      </a>
+      <h1>Southern Maryland's Largest Toy / Collectible Store!</h1>    
+    </header>
+
+    <nav>
+      <ul class="horizon_menu">
+        <li>
+          <a href="about.html">ABOUT</a>
+        </li>
+
+        <li>
+          <a href="events.html">EVENTS</a>
+        </li>
+
+        <li>
+          <a href="shop.html">SHOP</a>
+        </li>
+
+        <li>
+          <a href="location.html">LOCATION</a>
+        </li>
+
+        <li>
+          <a href="contact.html">CONTACT</a>
+        </li>
+      </ul>
+    </nav>
+
+    <main>
+     <p>To see more of our merchandise or catch up on the latest updates, 
+        visit us on either our Facebook page or our Instagram page! 
+        To make direct inquiries about specific merchandise or possible 
+        sales to us please email us using the address listed below!
+     </p>
+
+     <div class="contacts_list">
+        <div class="contacts_list_icons">
+          <div>
+            <a href="https://www.facebook.com/TOYMANX/"><i class="fa-brands fa-facebook fa-2xl"></i></a>     
+          </div>
+
+          <div>
+            <a href="https://www.instagram.com/toyman_x/"><i class="fa-brands fa-instagram fa-2xl"></i></a>   
+          </div>
+
+          <div>
+            <i class="fa-solid fa-envelope fa-2xl"></i>    
+          </div>
+        </div>
+
+        <div class="contacts_list_text">
+          <div>
+            <p>Toyman-X on Facebook</p>           
+          </div>
+
+          <div>
+            <p>Toyman-X on Instagram</p>           
+          </div>
+
+          <div>
+            <p>: toymanx@aol.com</p>            
+          </div>
+        </div>
+      </div>
+
+      <form name="send_email" class="send_email" action="mailto:toymanx@aol.com"
+        method="POST"
+        enctype="multipart/form-data"
+        name="EmailForm">
+        <p>Name:</p>
+        <input type="text" size="19" name="Contact-Name"><br><br>
+        <p>Email:</p>
+        <input type="email" name="Contact-Email"><br><br> 
+        <p>Message:</p>
+        <textarea name="Contact-Message" rows="6″ cols="20″>
+        </textarea><br><br> 
+        <button type="submit" value="Submit">Send</button>
+      </form>     
+    </main>
+
+    <footer>
+      <p id="date/time"></p>
+      <a href="privacy_policy.html"><p>privacy policy</p></a>
+    </footer>
+
+    <script>
+      const d = new Date();
+      document.getElementById("date/time").innerHTML = d;
+    </script>
+
+    <script>
+      function validateForm() {
+        let x = document.forms["send_email"].value;
+        if (isValid) {
+        alert("Email Sent!");I
+        }
+      }
+    </script>
+
+    <script src="https://kit.fontawesome.com/e4d01eeca1.js" crossorigin="anonymous"></script>  
+  </body>
+</html>

@@ -1,0 +1,261 @@
+html{
+  background: linear-gradient(#2B0000,#b30000);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.logo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.barn{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.storefront{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body{
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+@font-face{
+  font-family: "Permanent Marker", cursive;
+  url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');  
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1{
+  text-align: center;
+  font-family: "Permanent Marker";
+  color: #FFCC00;
+}
+
+p{
+  text-align: center;
+  font-family: "Permanent Marker";
+  font-size: 30px;
+  color: #FFCC00;
+}
+
+nav{
+  font-family: "Permanent Marker";
+  font-size: 20px;
+  text-align: center;
+  padding-bottom:25px;
+}
+
+.horizon_menu {
+  padding: 10px 16px;
+  list-style: none;
+}
+
+.horizon_menu li {
+  display: inline;
+}
+
+.horizon_menu li+li:before{
+  padding:8px;
+  color:#FFCC00;
+  content: "/\00a0";
+} 
+
+a:link{
+  color: #FFCC00;
+}
+
+a:visited{
+  color: #FFCC00;
+}
+
+a:hover{
+  color: #b6d6ec;
+}
+
+.contacts_list{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  height: 400px;
+  width: 350px;
+  margin-left: 300px;
+}
+
+.contacts_list p{
+  font-size: 25px;
+  text-align: left;
+}
+
+.contacts_list_icons{
+  font-family: "Permanent Marker";
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+
+.contacts_list_text{
+  font-family: "Permanent Marker";
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  padding-top: 35px;
+  height: 325px;
+}
+
+.send_email{
+  padding-left: 450px;
+}
+
+.send_email p{
+  font-size: 15px;
+  text-align: left;
+  padding-bottom: 1px;
+}
+
+.address{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  height: 100px;
+  width: 500px;
+  margin-left: 350px;
+}
+
+.address p{
+  font-size: 25px;
+  text-align: left;
+}
+
+.address_icon{
+  font-family: "Permanent Marker";
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  padding-top: 20px;
+}
+
+.address_text{
+  font-family: "Permanent Marker";
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  padding-left: 20px;
+  height: 100px;
+  width: 500px;
+}
+
+
+.shop_menu{
+  display: flex;
+  background-color: #ffcc00;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.shop_column_one{
+  font-family: "Permanent Marker";
+  text-align: center;
+  display: flex;
+  width:200px;
+  flex-direction: column;
+}
+
+.shop_column_one a:link{
+  color: #000000;
+}
+
+.shop_column_one a:visited{
+  color: #000000;
+}
+
+.shop_column_one a:hover{
+  color: #b80000;
+}
+
+.shop_column_two{
+  font-family: "Permanent Marker";
+  text-align: center;
+  display: flex;
+  width:200px;
+  flex-direction: column;
+}
+
+.shop_column_two a:link{
+  color: #000000;
+}
+
+.shop_column_two a:visited{
+  color: #000000;
+}
+
+.shop_column_two a:hover{
+  color: #b80000;
+}
+
+.shop_column_three{
+  font-family: "Permanent Marker";
+  text-align: center;
+  display: flex;
+  width:200px;
+  flex-direction: column;
+}
+
+.shop_column_three a:link{
+  color: #000000;
+}
+
+.shop_column_three a:visited{
+  color: #000000;
+}
+
+.shop_column_three a:hover{
+  color: #b80000;
+}
+
+.gallery_menu{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 650px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.gallery_menu h1{
+  text-align: center;
+  font-size: 50px;
+}
+
+.gallery_menu h3{
+  text-align: center;
+  font-family: "Permanent Marker";
+  color: #FFCC00;}
+
+.gallery_column_one{
+  display: flex;
+  width:200px;
+  flex-direction: column;
+}
+
+.gallery_column_two{
+  display: flex;
+  width:200px;
+  flex-direction: column;
+}
+
+.gallery_column_three{
+  display: flex;
+  width:200px;
+  flex-direction: column;
+}
+

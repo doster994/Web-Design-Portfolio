@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="The page that 
+      functions as a sub-menu of the merchandise offered 
+      by the toy and collectibles shop ToymanX">
+    <meta name="keywords" content="ToymanX, toys, collectibles, shop, videogames,
+      funko pops, vehicles, comics, actionfigures, legos, dolls">
+    <meta name="copyright" content="ToymanX">
+    <meta name="author" content="Daniel Oster">
+    <meta name="robots" content="index, nosnippet">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    
+    <link rel="toymanx-icon" sizes="180x180" href="toymanx-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">      
+    <title>ToymanX_Shop</title>  
+  </head>
+
+  <body>
+    <header>
+      <a href="index.html">
+        <img class="logo" src="imgs/toyman_logo_final.png" height="370px" width="1000px" alt="Toyman-X-Logo">      
+      </a>
+      <h1>Southern Maryland's Largest Toy / Collectible Store!</h1>
+    </header>
+
+    <nav>
+      <ul class="horizon_menu">
+        <li>
+          <a href="about.html">ABOUT</a>
+        </li>
+
+        <li>
+          <a href="events.html">EVENTS</a>
+        </li>
+
+        <li>
+          <a href="shop.html">SHOP</a>
+        </li>
+
+        <li>
+          <a href="location.html">LOCATION</a>
+        </li>
+
+        <li>
+          <a href="contact.html">CONTACT</a>
+        </li>
+      </ul>    
+    </nav>
+
+    <main>
+     <div class="shop_menu">
+      <div class="shop_column_one">
+        <div>
+           <a href="videogames.html"><h2>video games</h2></a>
+        </div>
+        <div>
+           <a href="comics.html"><h2>comics</h2></a>        
+        </div> 
+      </div>
+
+      <div class="shop_column_two">
+        <div>
+           <a href="funko.html"><h2>funko pops</h2></a>        
+        </div>
+        <div>
+           <a href="actionfigures.html"><h2>action figures</h2></a>        
+        </div>
+        <div>
+          <a href="dolls.html"><h2>dolls</h2></a>         
+        </div>
+      </div>
+
+      <div class="shop_column_three">
+        <div>
+           <a href="vehiclemodels.html"><h2>vehicles</h2></a>        
+        </div>
+        <div>
+          <a href="legos.html"><h2>legos</h2></a>         
+        </div>
+      </div>
+     </div>
+    </main>
+
+    <footer>
+      <p id="date/time"></p>
+      <a href="privacy_policy.html"><p>privacy policy</p></a>    
+    </footer>
+
+    <script>
+      const d = new Date();
+      document.getElementById("date/time").innerHTML = d;
+    </script>
+  </body>
+</html>

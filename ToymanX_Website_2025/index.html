@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="The homepage for the toy and collectibles shop ToymanX">
+    <meta name="keywords" content="ToymanX, toys, collectibles, southern, Maryland, buy, sell">
+    <meta name="copyright" content="ToymanX">
+    <meta name="author" content="Daniel Oster">
+    <meta name="robots" content="index">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    
+    <link rel="toymanx-icon" sizes="180x180" href="toymanx-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">    
+    <title>ToymanX_Home_Page</title>  
+  </head>
+
+  <body>
+    <header>
+      <a href="index.html">
+        <img class="logo" src="imgs/toyman_logo_final.png" height="370px" width="1000px" alt="Toyman-X-Logo">
+      </a>
+      <h1>Southern Maryland's Largest Toy / Collectible Store!</h1>
+    </header>
+
+    <nav>
+      <ul class="horizon_menu">
+        <li>
+          <a href="about.html">ABOUT</a>
+        </li>
+
+        <li>
+          <a href="events.html">EVENTS</a>
+        </li>
+
+        <li>
+          <a href="shop.html">SHOP</a>
+        </li>
+
+        <li>
+          <a href="location.html">LOCATION</a>
+        </li>
+
+        <li>
+          <a href="contact.html">CONTACT</a>
+        </li>
+      </ul>
+    </nav>
+
+    <main>
+      <img class="storefront" src="imgs/20250614_134355.jpg" height="567" width="1008" alt="storefront">
+     <p>
+        Toyman-X offers a stupendous range of toys and memorabilia including, 
+        but not limited to, Legos, Funko Pops, Barbies, Comics and Video Games! 
+        You can even sell your unwanted toys to us for a reasonable price! 
+        Take a weekend off and visit us today!
+     </p>
+    </main>
+
+    <footer>
+      <p id="date/time"></p>
+      <a href="privacy_policy.html"><p>privacy policy</p></a>
+    </footer>
+
+    <script>
+      const d = new Date();
+      document.getElementById("date/time").innerHTML = d;
+    </script>
+  </body>
+</html>
